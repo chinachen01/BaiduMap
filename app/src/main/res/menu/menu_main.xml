@@ -1,9 +1,31 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:app="http://schemas.android.com/apk/res-auto"
-      xmlns:tools="http://schemas.android.com/tools"
-      tools:context=".MainActivity">
-    <item android:id="@+id/action_settings"
-          android:title="@string/action_settings"
-          android:orderInCategory="100"
-          app:showAsAction="never"/>
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_location"
+        android:orderInCategory="100"
+        android:title="我的位置"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_normal"
+        android:orderInCategory="100"
+        android:title="普通地图"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_satellite"
+        android:orderInCategory="100"
+        android:title="卫星地图"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_traffic"
+        android:orderInCategory="100"
+        android:title="交通地图(off)"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_marker"
+        android:orderInCategory="100"
+        android:title="添加覆盖物"
+        app:showAsAction="never" />
+
 </menu>
